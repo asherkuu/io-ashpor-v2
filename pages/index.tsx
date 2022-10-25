@@ -15,7 +15,6 @@ import {
   IoMailOutline,
   IoFitnessSharp,
 } from "react-icons/io5";
-
 import Layout from "components/layouts/Article";
 import Section from "components/common/section";
 import Paragraph from "components/common/paragraph";

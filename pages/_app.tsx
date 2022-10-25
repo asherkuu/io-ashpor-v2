@@ -1,8 +1,26 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { ChakraProvider } from "@chakra-ui/react";
+import { appWithTranslation } from "next-i18next";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import theme from "lib/theme";
+import Fonts from "components/common/fonts";
+import Layout from "components/layouts";
+import { AnimatePresence } from "framer-motion";
 
-export default MyApp
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+
+const App = ({ Component, pageProps, router }) => {
+  return (
+    <ChakraProvider theme={theme}>
+      <Fonts />
+      <Layout router={router}>
+        <AnimatePresence exitBeforeEnter initial={true}>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+        <ToastContainer />
+      </Layout>
+    </ChakraProvider>
+  );
+};
+
+export default appWithTranslation(App);

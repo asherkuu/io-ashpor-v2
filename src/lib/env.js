@@ -1,0 +1,13 @@
+export const CONFIG = {
+  AUTH0_BASEURL:
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://ashpor.com",
+  AUTH0_DOMAIN: process.env.NEXT_PUBLIC_AUTH0_DOMAIN,
+  AUTH0_CALLBACK: process.env.NEXT_PUBLIC_AUTH0_CALLBACK,
+  AUTH0_CLIENT_ID: process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID,
+  AUTH0_CLIENT_SECRET: process.env.NEXT_PUBLIC_AUTH0_CLIENT_SECRET,
+  AUTH0_SECRET: process.env.NEXT_PUBLIC_AUTH0_SECRET,
+  AUTH0_AUDIENCE: process.env.NEXT_PUBLIC_AUTH0_AUDIENCE,
+  AUTH0_NAMESPACE: process.env.NEXT_PUBLIC_AUTH0_NAMESPACE,
+};

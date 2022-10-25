@@ -1,0 +1,67 @@
+{
+  "name": "Asher Kim / 김선규",
+  "age": "years old",
+  "Intro": "For the first year after completing the Java Programming course, I developed REST API and web using Java and Javascript, and since then, I have changed the language to React & Node to develop the web. I am interested in the new technologies and codes of readability and optimization, and I strives to become a man who wants to work with team members.",
+  "Bio": {
+    "army": "Army sergent, honorable discharge",
+    "study": "[NCS] Completed the training course for digital convergence application software developers",
+    "waterInfo": "WaterInfo Inc.",
+    "sinaetmul": "Sinaetmul ENT Inc.",
+    "abent": "Abent Inc.",
+    "bss": "BSS Company Inc.",
+    "now": "now"
+  },
+  "Work": {
+    "working": "Working Project",
+    "toy": "Toy Project"
+  },
+  "Form": {
+    "valid_required": "{{field}} is required."
+  },
+  "Variables": {
+    "jobTitle": "Project Type",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "korTitle": "Title of Korean",
+    "engTitle": "Title of English",
+    "korDesc": "Description of Korean",
+    "engDesc": "Description of English",
+    "korContents": "Contents of Korean",
+    "engContents": "Contents of English",
+    "file": "Image"
+  },
+  "date": {
+    "1": "January ",
+    "2": "February ",
+    "3": "March ",
+    "4": "April ",
+    "5": "May ",
+    "6": "June ",
+    "7": "July ",
+    "8": "August ",
+    "9": "September ",
+    "10": "October ",
+    "11": "November ",
+    "12": "Devember "
+  },
+  "location": {
+    "uiwang": "Uiwang, Gyeonggi-do",
+    "gangnam": "Gangnam, Seoul",
+    "samsung": "Samsung, Seoul",
+    "hapjeong": "Hapjeong, Seoul",
+    "seonjeongneung": "Seonjeongneung, Seoul",
+    "seoul": "Seoul"
+  },
+  "work-exp": {
+    "datamoa": "Uiwang Datamoa"
+  },
+  "work-exp-work": {
+    "datamoa": {
+      "1": "...",
+      "2": "...",
+      "3": "...",
+      "4": "...",
+      "5": "..."
+    }
+  }
+}

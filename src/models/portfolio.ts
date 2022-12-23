@@ -22,11 +22,25 @@ const PortfolioSchema: Schema<IPortfolio> = new Schema(
       title: { type: String, required: true, maxlength: 128 },
       desc: { type: String, required: true },
       content: { type: String, required: true },
+      summary: {
+        title: { type: String, required: true, maxlength: 128 },
+        position: { type: String, required: true, maxlength: 128 },
+        date: { type: String, required: true, maxlength: 128 },
+        location: { type: String, required: true, maxlength: 128 },
+        content: { type: Array },
+      },
     },
     ko: {
       title: { type: String, required: true, maxlength: 128 },
       desc: { type: String, required: true },
       content: { type: String, required: true },
+      summary: {
+        title: { type: String, required: true, maxlength: 128 },
+        position: { type: String, required: true, maxlength: 128 },
+        date: { type: String, required: true, maxlength: 128 },
+        location: { type: String, required: true, maxlength: 128 },
+        content: { type: Array<string> },
+      },
     },
   },
   {

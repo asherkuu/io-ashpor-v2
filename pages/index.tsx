@@ -103,12 +103,12 @@ const Home: NextPage<{ locale: string }> = ({ locale }) => {
             textAlign="center"
             borderRadius="999px"
           >
-            {/* <ProfileImage
+            <ProfileImage
               width="200"
               height="200"
               src="/images/asher.webp"
               alt="Profile image"
-            /> */}
+            />
           </Box>
         </Box>
 
